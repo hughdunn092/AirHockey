@@ -12,12 +12,11 @@ namespace AirHockey
 {
     public partial class Form1 : Form
     {
-        Rectangle puck = new Rectangle(280, 430, 40, 40);
+        Rectangle puck = new Rectangle(285, 435, 30, 30);
         Rectangle outline = new Rectangle(5, 5, 590, 890);
         Rectangle player1 = new Rectangle(275, 200, 50, 50);
         Rectangle player2 = new Rectangle(275, 650, 50, 50);
 
-        SolidBrush whiteBrush = new SolidBrush(Color.White);
         SolidBrush blackBrush = new SolidBrush(Color.Black);
         SolidBrush blueBrush = new SolidBrush(Color.Blue);
         SolidBrush redBrush = new SolidBrush(Color.Red);
@@ -189,8 +188,8 @@ namespace AirHockey
                 {
                     player2Score++;
 
-                    puck.X = 280;
-                    puck.Y = 430;
+                    puck.X = 285;
+                    puck.Y = 435;
                     puckXSpeed = 0;
                     puckYSpeed = 0;
 
@@ -210,8 +209,8 @@ namespace AirHockey
                 {
                     player1Score++;
 
-                    puck.X = 280;
-                    puck.Y = 430;
+                    puck.X = 285;
+                    puck.Y = 435;
                     puckXSpeed = 0;
                     puckYSpeed = 0;
 
